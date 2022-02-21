@@ -1,5 +1,15 @@
 <odoo>
     <data>
+        <record model="ir.ui.view" id="course_search_view">
+            <field name="name">Course Search</field>
+            <field name="model">open_academy.course</field>
+            <field name="arch" type="xml">
+                <search>
+                    <field name="title"/>
+                    <field name="description"/>
+                </search>
+            </field>
+        </record>
         <record model="ir.ui.view" id="open_academy.list">
             <field name="name">Courses list</field>
             <field name="model">open_academy.course</field>
