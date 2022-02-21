@@ -10,6 +10,26 @@
                 </tree>
             </field>
         </record>
+        <!-- open_academy_course form view -->
+        <record id="model_name_view_form" model="ir.ui.view">
+            <field name="name">open_academy.course.view.form</field>
+            <field name="model">open_academy.course</field>
+            <field name="arch" type="xml">
+                <form string="">
+                    <sheet>
+                        <group>
+                            <!-- Add your fields here -->
+                            <field name="name" />
+                        </group>
+                        <notebook>
+                            <page name="description" string="Description">
+                                <field name="description" placeholder="Una Breve Descripcion"/>
+                            </page>
+                        </notebook>
+                    </sheet>
+                </form>
+            </field>
+        </record>
         <record model="ir.actions.act_window" id="action_list_courses">
             <field name="name">Courses</field>
             <field name="res_model">open_academy.course</field>
