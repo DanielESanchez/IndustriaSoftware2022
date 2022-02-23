@@ -1,1 +1,3 @@
-![Captura 5] (https://i.ibb.co/fd2MvkM/Captura-de-pantalla-de-2022-02-21-14-09-36.png)
+![Captura 1] (./images/1.png?raw=true)
+![Captura 2] (./images/2.png?raw=true)
+![Captura 3] (./images/3.png?raw=true)
