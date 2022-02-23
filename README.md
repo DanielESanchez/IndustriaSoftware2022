@@ -1,3 +1,4 @@
-![Captura 1] (images/1.png?raw=true)
-![Captura 2] (images/2.png?raw=true)
-![Captura 3] (images/3.png?raw=true)
+<p align="center">
+  <img src="images/1.png" width="350">
+  <img src="images/2.png" width="350" alt="accessibility text">
+</p>
