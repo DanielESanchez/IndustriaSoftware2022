@@ -30,6 +30,7 @@
                         <group>
                             <!-- Add your fields here -->
                             <field name="name" />
+                             <field name="title" />
                         </group>
                         <notebook>
                             <page name="description" string="Description">
